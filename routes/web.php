@@ -22,7 +22,7 @@ Route::get('headfoot', function () {
 
 });
 Route::get('addcourse', function () {
-    return view('addcourse');
+    return view('form.addcourse');
 
 });
 Route::get('viewcourse', function () {
@@ -30,30 +30,30 @@ Route::get('viewcourse', function () {
 
 });
 Route::get('addsection', function () {
-    return view('addsection');
+    return view('form.addsection');
 
 });
 Route::get('addsemester', function () {
-    return view('addsemester');
+    return view('form.addsemester');
 
 });
 Route::get('addclass', function () {
-    return view('addclass');
+    return view('form.addclass');
 
 });
 Route::get('addsubject', function () {
-    return view('addsubject');
+    return view('form.addsubject');
 
 });
 Route::get('addbook', function () {
-    return view('addbook');
+    return view('form.addbook');
 
 });
 Route::get('addstudent', function () {
-    return view('addstudent');
+    return view('form.addstudent');
 
 });
 Route::get('addteacher', function () {
-    return view('addteacher');
+    return view('form.addteacher');
 
 });
