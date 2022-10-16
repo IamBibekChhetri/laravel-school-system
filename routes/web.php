@@ -29,3 +29,15 @@ Route::get('viewcourse', function () {
     return view('viewcourse');
 
 });
+Route::get('addsection', function () {
+    return view('addsection');
+
+});
+Route::get('addsemester', function () {
+    return view('addsemester');
+
+});
+Route::get('addclass', function () {
+    return view('addclass');
+
+});

@@ -31,7 +31,7 @@
     
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Course Add</h1>
+                    <h1 class="page-header">Semester Add</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -43,10 +43,38 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <form role="form" action="course_add.php" method="Post">
+                                    <form role="form" action="semester_add.php" method="Post">
+                                    <div class="form-group">
+                                            <label>Select Course</label>
+                                            <select class="form-control" name="selectcourse">
+
+
+                                           
+                                                <option value="MBBS">MBBS</option>
+                                                <option value="MBA">MBA</option>
+                                                <option value="Bsc Nursing">Bsc Nursing</option>
+                                                <option value="Bsc Csit">Bsc Csit</option>
+                                                <option value="B Tech">B Tech</option>
+                                                                                           
+                                            </select>
+                                        </div>
+                                    <div class="form-group">
+                                            <label>Select Section</label>
+                                            <select class="form-control" name="selectsection">
+
+
+                                           
+                                                <option value="MBBS">MBBS</option>
+                                                <option value="MBA">MBA</option>
+                                                <option value="Bsc Nursing">Bsc Nursing</option>
+                                                <option value="Bsc Csit">Bsc Csit</option>
+                                                <option value="B Tech">B Tech</option>
+                                                                                           
+                                            </select>
+                                        </div>
                                         <div class="form-group">
-                                            <label>Enter Your Course</label>
-                                            <input class="form-control" name="coursename" required>
+                                            <label>Enter Your Semester</label>
+                                            <input class="form-control" name="semestername" required>
                                         </div>
                                         <div class="form-group"> 
                                             <label>Status:</label><br>
