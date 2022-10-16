@@ -21,6 +21,10 @@ Route::get('dashboard', function () {
     return view('first');
 
 });
+Route::get('addcourse', function () {
+    return view('addcourse');
+
+});
 Route::get('viewcourse', function () {
     return view('viewcourse');
 
