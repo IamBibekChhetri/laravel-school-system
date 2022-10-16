@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 
 });
-Route::get('dashboard', function () {
-    return view('first');
+Route::get('headfoot', function () {
+    return view('headfoot');
 
 });
 Route::get('addcourse', function () {
@@ -39,5 +39,21 @@ Route::get('addsemester', function () {
 });
 Route::get('addclass', function () {
     return view('addclass');
+
+});
+Route::get('addsubject', function () {
+    return view('addsubject');
+
+});
+Route::get('addbook', function () {
+    return view('addbook');
+
+});
+Route::get('addstudent', function () {
+    return view('addstudent');
+
+});
+Route::get('addteacher', function () {
+    return view('addteacher');
 
 });
