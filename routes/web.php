@@ -26,7 +26,7 @@ Route::get('addcourse', function () {
 
 });
 Route::get('viewcourse', function () {
-    return view('viewcourse');
+    return view('table.viewcourse');
 
 });
 Route::get('addsection', function () {

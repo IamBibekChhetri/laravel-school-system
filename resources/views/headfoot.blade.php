@@ -63,7 +63,7 @@
                 <div id="course" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                        
-                        <a class="collapse-item" href="addcourse.php">Add Course</a>
+                        <!-- <a class="collapse-item" href="{{url.web('addcourse.php')}}">Add Course</a> -->
                         <a class="collapse-item" href="viewcourse.php">View Course</a>
                     </div>
                 </div>

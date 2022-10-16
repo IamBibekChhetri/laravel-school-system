@@ -33,7 +33,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header"> Course Details<a href="addcourse.php"><button class="btn btn-primary" style="float:right; ">Add Semester</button></a>
+                    <h1 class="page-header"> Course Details<a href="{{url('web/addcourse.php')}}"><button class="btn btn-primary" style="float:right; ">Add Semester</button></a>
                     </h1>
                 </div>
                 <!-- /.col-lg-12 -->
@@ -43,9 +43,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                        Course Details 
-                        </div>
+                       
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="table-responsive">
