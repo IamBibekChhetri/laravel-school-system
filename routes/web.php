@@ -18,7 +18,7 @@ Route::get('/', function () {
 
 });
 Route::get('headfoot', function () {
-    return view('headfoot');
+    return view/form('headfoot');
 
 });
 Route::get('addcourse', function () {
