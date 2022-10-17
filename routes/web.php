@@ -25,26 +25,6 @@ Route::get('headfoot', function () {
     return view('headfoot');
 
 });
-Route::get('addcourse', function () {
-    return view('form.addcourse');
-
-});
-Route::get('viewcourse', function () {
-    return view('table.viewcourse');
-
-});
-Route::get('addsection', function () {
-    return view('form.addsection');
-
-});
-Route::get('addsemester', function () {
-    return view('form.addsemester');
-
-});
-Route::get('addclass', function () {
-    return view('form.addclass');
-
-});
 Route::get('addsubject', function () {
     return view('form.addsubject');
 
