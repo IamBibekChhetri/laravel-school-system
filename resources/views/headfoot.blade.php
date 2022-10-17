@@ -63,8 +63,8 @@
                 <div id="course" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                        
-                        <a class="collapse-item" href="{{asset('form.addcourse')}}">Add Course</a>
-                        <a class="collapse-item" href="viewcourse.php">View Course</a>
+                        <a class="collapse-item" href="{{asset('course/create')}}">Add Course</a>
+                        <a class="collapse-item" href="{{asset('course')}}">View Course</a>
                     </div>
                 </div>
             </li>
@@ -80,8 +80,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addsection.php">Add Section</a>
-                        <a class="collapse-item" href="viewsection.php">View Section</a>
+                        <a class="collapse-item" href="{{asset('section/create')}}">Add Section</a>
+                        <a class="collapse-item" href="{{asset('section')}}">View Section</a>
                        
                     </div>
                 </div>
@@ -97,8 +97,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addsemester.php">Add Semester</a>
-                        <a class="collapse-item" href="viewsemester.php">View Semester</a>
+                        <a class="collapse-item" href="{{asset('semester/create')}}">Add Semester</a>
+                        <a class="collapse-item" href="{{asset('semester')}}">View Semester</a>
                        
                     </div>
                 </div>
@@ -114,8 +114,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addclass.php">Add Class</a>
-                        <a class="collapse-item" href="viewclass.php">View Class</a>
+                        <a class="collapse-item" href="{{asset('classes/create')}}">Add Class</a>
+                        <a class="collapse-item" href="{{asset('classes')}}">View Class</a>
                        
                     </div>
                 </div>
@@ -131,8 +131,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addsubject.php">Add Subject</a>
-                        <a class="collapse-item" href="viewsubject.php">View Subject</a>
+                        <a class="collapse-item" href="{{asset('subject/create')}}">Add Subject</a>
+                        <a class="collapse-item" href="{{asset('subject')}}">View Subject</a>
                        
                     </div>
                 </div>
@@ -148,8 +148,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addbooks.php">Add Books</a>
-                        <a class="collapse-item" href="viewbooks.php">View Books</a>
+                        <a class="collapse-item" href="{{asset('book/create')}}">Add Books</a>
+                        <a class="collapse-item" href="{{asset('book')}}">View Books</a>
                        
                     </div>
                 </div>
@@ -165,8 +165,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addstudent.php">Add Student</a>
-                        <a class="collapse-item" href="viewstudent.php">View Student</a>
+                        <a class="collapse-item" href="{{asset('student/create')}}">Add Student</a>
+                        <a class="collapse-item" href="{{asset('student')}}">View Student</a>
                        
                     </div>
                 </div>
@@ -182,8 +182,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="addteacher.php">Add Teacher</a>
-                        <a class="collapse-item" href="viewteacher.php">View Teacher</a>
+                        <a class="collapse-item" href="{{asset('teacher/create')}}">Add Teacher</a>
+                        <a class="collapse-item" href="{{asset('teacher')}}">View Teacher</a>
                        
                     </div>
                 </div>

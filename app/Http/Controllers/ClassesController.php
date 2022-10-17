@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\semester;
+use App\Models\classes;
 use Illuminate\Http\Request;
 
-class SemesterController extends Controller
+class ClassesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class SemesterController extends Controller
      */
     public function index()
     {
-        return view('semester.viewsemester');
+        return view('classes.viewclass');
     }
 
     /**
@@ -24,7 +24,7 @@ class SemesterController extends Controller
      */
     public function create()
     {
-        return view('semester.addsemester');
+        return view('classes.addclass');
     }
 
     /**
@@ -41,10 +41,10 @@ class SemesterController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\semester  $semester
+     * @param  \App\Models\classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function show(semester $semester)
+    public function show(classes $classes)
     {
         //
     }
@@ -52,22 +52,22 @@ class SemesterController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\semester  $semester
+     * @param  \App\Models\classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function edit(semester $semester)
+    public function edit(classes $classes)
     {
-        return view('semester.editsemester');
+        return view('classes.editclass');
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\semester  $semester
+     * @param  \App\Models\classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, semester $semester)
+    public function update(Request $request, classes $classes)
     {
         //
     }
@@ -75,10 +75,10 @@ class SemesterController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\semester  $semester
+     * @param  \App\Models\classes  $classes
      * @return \Illuminate\Http\Response
      */
-    public function destroy(semester $semester)
+    public function destroy(classes $classes)
     {
         //
     }

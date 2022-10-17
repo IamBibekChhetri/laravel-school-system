@@ -5,6 +5,7 @@ use App\Http\Controllers\StudentController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\SectionController;
 use App\Http\Controllers\SemesterController;
+use App\Http\Controllers\ClassesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,3 +67,4 @@ Route::resource('student', StudentController::class);
 Route::resource('course', CourseController::class);
 Route::resource('section', SectionController::class);
 Route::resource('semester', SemesterController::class);
+Route::resource('classes', ClassesController::class);
