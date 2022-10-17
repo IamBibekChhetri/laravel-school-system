@@ -44,7 +44,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="{{asset('')}}">
+                <a class="nav-link" href="{{asset('headfoot')}}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -63,7 +63,7 @@
                 <div id="course" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                        
-                        <!-- <a class="collapse-item" href="{{url.web('addcourse.php')}}">Add Course</a> -->
+                        <a class="collapse-item" href="{{asset('form.addcourse')}}">Add Course</a>
                         <a class="collapse-item" href="viewcourse.php">View Course</a>
                     </div>
                 </div>

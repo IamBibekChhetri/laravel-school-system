@@ -43,7 +43,7 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <form role="form" action="course_add.php" method="Post">
+                                    <form role="form" action="" method="Post">
                                         <div class="form-group">
                                             <label>Enter Your Course</label>
                                             <input class="form-control" name="coursename" required>
@@ -62,6 +62,7 @@
                                         <button type="submit" class="btn btn-primary">Save</button>
                                         <button type="reset" class="btn btn-danger">Reset</button>
                                     </form>
+                                    <a href="{{asset('course')}}"><button  class="btn btn-info">Back</button></a>
                                     </div>
                                 </div>
                             </div>

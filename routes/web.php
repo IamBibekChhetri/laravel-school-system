@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\StudentController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\SectionController;
+use App\Http\Controllers\SemesterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -49,6 +52,7 @@ Route::get('addbook', function () {
     return view('form.addbook');
 
 });
+
 Route::get('addstudent', function () {
     return view('form.addstudent');
 
@@ -57,3 +61,8 @@ Route::get('addteacher', function () {
     return view('form.addteacher');
 
 });
+
+Route::resource('student', StudentController::class);
+Route::resource('course', CourseController::class);
+Route::resource('section', SectionController::class);
+Route::resource('semester', SemesterController::class);
