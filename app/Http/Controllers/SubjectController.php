@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Student;
+use App\Models\subject;
 use Illuminate\Http\Request;
 
-class StudentController extends Controller
+class SubjectController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class StudentController extends Controller
      */
     public function index()
     {
-        return view('student.viewstudent');
+        return view('subject.viewsubject');
     }
 
     /**
@@ -24,7 +24,7 @@ class StudentController extends Controller
      */
     public function create()
     {
-       return view('student.addstudent');
+        return view('subject.addsubject');
     }
 
     /**
@@ -41,10 +41,10 @@ class StudentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function show(Student $student)
+    public function show(subject $subject)
     {
         //
     }
@@ -52,22 +52,22 @@ class StudentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function edit(Student $student)
+    public function edit(subject $subject)
     {
-        return view('student.editstudent');
+       return view('subject.editsubject');
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Student $student)
+    public function update(Request $request, subject $subject)
     {
         //
     }
@@ -75,10 +75,10 @@ class StudentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\subject  $subject
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Student $student)
+    public function destroy(subject $subject)
     {
         //
     }

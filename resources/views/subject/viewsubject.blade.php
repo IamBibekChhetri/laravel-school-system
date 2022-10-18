@@ -33,7 +33,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header"> Course Details<a href="{{url('web/addcourse.php')}}"><button class="btn btn-primary" style="float:right; ">Add Semester</button></a>
+                    <h1 class="page-header"> Subject Details<a href="{{asset('subject/create')}}"><button class="btn btn-primary" style="float:right; ">Add Subject</button></a>
                     </h1>
                 </div>
                 <!-- /.col-lg-12 -->
@@ -50,9 +50,9 @@
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>Course Name</th>
-                                            <th>Course Status</th>
-                                            <!-- <th>action</th> -->
+                                            <th>Subject Name</th>
+                                            <th>Subject Status</th>
+                                            <th>action</th>
                                             </tr>
 
                                     </thead>
@@ -61,6 +61,9 @@
                                                     <tr class="odd gradeX">
                                             <td>MBBS</td>
                                             <td>Active</td>
+                                            <td>
+                                            <a href="{{asset('subject/edit')}}"><button  class="btn btn-info">edit</button></a>
+                                            </td>
 
                  
                                            

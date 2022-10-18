@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Student;
+use App\Models\book;
 use Illuminate\Http\Request;
 
-class StudentController extends Controller
+class BookController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class StudentController extends Controller
      */
     public function index()
     {
-        return view('student.viewstudent');
+        //
     }
 
     /**
@@ -24,7 +24,7 @@ class StudentController extends Controller
      */
     public function create()
     {
-       return view('student.addstudent');
+        //
     }
 
     /**
@@ -41,10 +41,10 @@ class StudentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\book  $book
      * @return \Illuminate\Http\Response
      */
-    public function show(Student $student)
+    public function show(book $book)
     {
         //
     }
@@ -52,22 +52,22 @@ class StudentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\book  $book
      * @return \Illuminate\Http\Response
      */
-    public function edit(Student $student)
+    public function edit(book $book)
     {
-        return view('student.editstudent');
+        //
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\book  $book
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Student $student)
+    public function update(Request $request, book $book)
     {
         //
     }
@@ -75,10 +75,10 @@ class StudentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Student  $student
+     * @param  \App\Models\book  $book
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Student $student)
+    public function destroy(book $book)
     {
         //
     }

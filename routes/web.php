@@ -6,6 +6,8 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\SectionController;
 use App\Http\Controllers\SemesterController;
 use App\Http\Controllers\ClassesController;
+use App\Http\Controllers\SubjectController;
+use App\Http\Controllers\BookController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,18 +23,7 @@ Route::get('/', function () {
     return view('welcome');
 
 });
-Route::get('headfoot', function () {
-    return view('headfoot');
 
-});
-Route::get('addsubject', function () {
-    return view('form.addsubject');
-
-});
-Route::get('addbook', function () {
-    return view('form.addbook');
-
-});
 
 Route::get('addstudent', function () {
     return view('form.addstudent');
@@ -48,3 +39,5 @@ Route::resource('course', CourseController::class);
 Route::resource('section', SectionController::class);
 Route::resource('semester', SemesterController::class);
 Route::resource('classes', ClassesController::class);
+Route::resource('subject', SubjectController::class);
+Route::resource('book', BookController::class);
