@@ -25,8 +25,23 @@ Route::get('/', function () {
 
 });
 
-Route::get('headfoot', function () {
-    return view('headfoot');
+Route::get('dashboard', function () {
+    return view('dashboard');
+
+});
+
+Route::get('header', function () {
+    return view('header');
+
+});
+
+Route::get('footer', function () {
+    return view('footer');
+
+});
+
+Route::get('aside', function () {
+    return view('aside');
 
 });
 
